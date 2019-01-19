@@ -1,5 +1,5 @@
 var BankAccount = {
-  balance: 500,
+  balance: 5000,
   withdraw: function(amount) {
       this.balance = this.balance - amount;
   },

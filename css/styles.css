@@ -1,3 +1,11 @@
 .container {
     background-color: gray;
 }
+button type {
+         border-radius: 12px;
+         backgound-color: green;
+}
+.form-group {
+    font-size: 20px;
+
+}
