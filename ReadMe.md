@@ -1,7 +1,6 @@
-# Bank Acoount
+# Bank Account
 
 
- Bank Account is where we create bank accounts,
 #### By **Uwera Jojo.**
 ## Description.
 Bank Accounts is where we create accounts for people,deposit or withdraw money and check the balance that is on their accounts.
