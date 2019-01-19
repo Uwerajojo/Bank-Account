@@ -7,3 +7,6 @@ var bankAccount = {
     this.balance = this.balance+amount;
   }
 };
+$(document).ready(function(){
+  var newAccount = Object.create(BankAccount);
+
