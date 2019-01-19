@@ -9,4 +9,15 @@ var bankAccount = {
 };
 $(document).ready(function(){
   var newAccount = Object.create(BankAccount);
+$("form#set-up").submit(function(event){
+  event.preventDefault();
+  var inputtedName = $("input#name").val();
+  var inputtedBalance = parseInt$("input#initial").val();
+  newAccount.name = inputtedName;
+  newAccount.deposit(inputtedBalance);
+  $(".balance").text(newAccount.balance);
+});
+$("form#run").submit(function(event){
+
+}
 
